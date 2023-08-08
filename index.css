@@ -28,12 +28,12 @@ main {
 }
 .main-body {
     position: relative;
-    background-color: rgb(179, 44, 44);
 }
 .profile-photo {
+    display: block;
     width: 97%;
     border-radius: 0.9375em;
-    margin: 0 1.5%;
+    margin: 0 auto;
 }
 
 .info{
