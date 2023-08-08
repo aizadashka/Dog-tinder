@@ -28,6 +28,7 @@ main {
 }
 .main-body {
     position: relative;
+    background-color: darkgrey;
 }
 .profile-photo {
     width: 97%;
