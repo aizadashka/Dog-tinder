@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+    user-select: none;
+}
+html {
+    display: flex;
+}
+body {
+    border: 1px solid red;
+    margin: 0 auto;
+    padding: 0;
+    min-width: 320px;
+    max-width: 550px;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+header img{
+    max-height: 34px;
+}
+
+/* BODY */
+main {
+    background: linear-gradient(180deg, #FFFFFF 0%, #F6F7FB 100%);
+}
+.main-body {
+    position: relative;
+}
+.profile-photo {
+    width: 97%;
+    border-radius: 0.9375em;
+    margin: 0 1.5%;
+}
+
+.info{
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    left: 1.25em;
+    bottom: 4%;
+}
+.name-age {
+    font-size: 2rem;
+    font-weight: 600;
+    color: white;
+}
+.message {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #B7B7B7;
+}
+.name-age, .message {
+    margin: 0.2em 0;
+}
+
+/* BUTTONS */
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+.buttons img {
+    background: white;
+    border-radius: 50%;
+    padding: 1em;
+    margin: 1.5rem;
+    box-shadow: 0px 10px 20px 0px #E9E9EA;
+}
+
+.icon-cross:hover {
+    background: #EDD9DF;
+}
+.icon-heart:hover {
+    background: #CCF1E6;
+}
+
+
+/* BADGES */
+.badge {
+    position: absolute;
+    width: 45%;
+    top: 5em;
+    left: 2em;
+    transform: rotate(-30deg);
+}
+
+.hidden {
+    display: none;
+}
+
+.no-dog {
+    border: 1px solid #B7B7B7;
+    border-radius: 5%;
+    width: 90%;
+    height: 70vh;
+    text-align: center;
+    margin: 0 auto;
+    padding: 30vh 0;
+}
