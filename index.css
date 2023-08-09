@@ -31,7 +31,7 @@ main {
 }
 .profile-photo {
     display: block;
-    width: 97%;
+    width: 95%;
     border-radius: 0.9375em;
     margin: 0 auto;
 }
@@ -94,7 +94,7 @@ main {
     border: 1px solid #B7B7B7;
     border-radius: 5%;
     width: 90%;
-    height: 70vh;
+    min-height: 300px;
     text-align: center;
     margin: 0 auto;
     padding: 30vh 0;
